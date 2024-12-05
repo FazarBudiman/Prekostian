@@ -28,16 +28,21 @@ export const useForm = (validate: { (values: IValues): IValues }) => {
     const errors = validate(values);
     setFormState((prevState) => ({ ...prevState, errors }));
 
-    const url = ""; // Fill in your API URL here
+    const url = "https://sheetdb.io/api/v1/be36mfb2nzd8b"; // Fill in your API URL here
 
     try {
       if (Object.values(errors).every((error) => error === "")) {
+        const date = new Date().toISOString();
+        const reqObj = {
+          ...values,
+          date
+        }
         const response = await fetch(url, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify(values),
+          body: JSON.stringify(reqObj),
         });
 
         if (!response.ok) {

@@ -5,22 +5,22 @@
     {
       "title": "Sign Up",
       "content": "Daftarkan akunmu di website kami.",
-      "icon": "notes.svg"
+      "icon": "account.svg"
     },
     {
       "title": "Upload Picture your Items",
       "content": "Foto barang dengan angle terbaik, tulis deskripsi, dan pasang harga.",
-      "icon": "notes.svg"
+      "icon": "furniture.svg"
     },
     {
       "title": "Wait the Offer",
       "content": "Barangmu akan dilihat oleh calon pembeli, dan mereka bisa langsung hubungi kamu.",
-      "icon": "notes.svg"
+      "icon": "wait-offer.svg"
     },
     {
       "title": "Sell your Items",
       "content": "Deal harga, kasih barangnya dan terima uangnya!",
-      "icon": "notes.svg"
+      "icon": "money.svg"
     }
   ]
 }

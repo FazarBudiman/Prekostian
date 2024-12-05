@@ -3,6 +3,7 @@ export interface ContentBlockProps {
   icon: string;
   title: string;
   content: string;
+  url?: string;
   section?: {
     title: string;
     content: string;

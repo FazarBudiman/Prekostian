@@ -1,0 +1,26 @@
+{
+  "title": "Simple, Fast and Perfect",
+  "text": "Kostian tidak perlu mencari pembeli, karena akan sangat banyak yang siap membeli barangmu.",
+  "section": [
+    {
+      "title": "Sign Up",
+      "content": "Daftarkan akunmu di website kami.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Upload Picture your Items",
+      "content": "Foto barang dengan angle terbaik, tulis deskripsi, dan pasang harga.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Wait the Offer",
+      "content": "Barangmu akan dilihat oleh calon pembeli, dan mereka bisa langsung hubungi kamu.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Sell your Items",
+      "content": "Deal harga, kasih barangnya dan terima uangnya!",
+      "icon": "notes.svg"
+    }
+  ]
+}
